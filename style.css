@@ -1,0 +1,161 @@
+/* Normalizing my Webpage */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+main{
+    margin: 15px 15px;
+    /* line-height: 1.5; */
+    background-color: rgb(71, 70, 70)
+}
+/* Styling the Nav */
+nav{
+    padding: 5px 8%;
+    display: flex;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    top: 10;
+    z-index: 10;
+    width: 1000%;
+    position: Relative;
+}
+.search-button {
+    display: inline;
+}
+nav h1{
+    color: rgb(255, 69, 0);
+    font-size: 2rem;
+}
+nav a{
+    color: white;
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+}
+nav a:hover {
+    color: orangered;
+    border: 2px solid orangered;
+    padding: 10px;
+}
+form.search-button input{
+    padding: 6px;
+    font-size: 18px;
+    border: 1px solid orangered;
+    float: left;
+    width: 70%;
+    background:rgb(71, 70, 70);
+}
+form.search-button button{
+    float: left;
+    width: 30%;
+    padding: 6px;
+    background-color: orangered;
+    color: white;
+    font-size: 18px;
+    border: 1px solid orangered;
+    /* The search area has a border right. To avoid double borders */
+    border-left: none;
+    cursor: pointer;
+}
+form.search-button button:hover{
+    background-color: grey;
+}
+form .search-button::after{
+    content: "";
+    clear: both;
+}
+/* Style for the header */
+header{
+    height: 60vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    top: 10;
+    z-index: 10;
+    width: 100%;
+    position: Relative;
+    padding: 10px 8%;
+}
+span{
+ font-size: 37px;
+ color: orangered;   
+}
+header button{
+    padding: 2px 20px;
+    border-radius: 5px;
+    background-color: orangered;
+    font-weight: bold;
+    border: 1px solid orangered;
+    color:black;
+    cursor: pointer;
+}
+.web{
+    color: white;
+}
+header h1{
+    line-height: 1;
+}
+header .web p{
+    line-height: 1.6;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    height: auto;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: black;
+    border-radius: 8px;
+    text-align: center;
+}
+.login h2{
+position: relative;
+color: orangered;
+background-color: white;
+border-radius: 8px;
+}
+.login form{
+    padding: 10px;
+    box-sizing: border-box;
+}
+.info{
+    position: relative;
+    width: 100%;
+    padding: 10px 5px;
+    margin: 0 0 25 0;
+    border: none;
+    border-bottom: 2px solid orangered;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: inherit;
+    font-weight: 500;
+    opacity: o.5, 0, 0.1, 1;
+}
+#submit{
+    width: 250px;
+    height: 30px;
+    border: 1px solid orangered;
+    background-color: orangered;
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 10px;
+}
+header p{
+    color: white;
+}
+span a{
+    color: orangered;
+    font-size: 1rem;
+    text-decoration: none;
+}
